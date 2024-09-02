@@ -66,19 +66,28 @@ function AppendFunc(){
 function generateResponse(input) {
     // Add chatbot logic here
     const responses = [
-      "Hello, how can I help you today? 😊",
-      "I'm sorry, I didn't understand your question. Could you please rephrase it? 😕",
-      "I'm here to assist you with any questions or concerns you may have. 📩",
-      "I'm sorry, I'm not able to browse the internet or access external information. Is there anything else I can help with? 💻",
-      "What would you like to know? 🤔",
-      "I'm sorry, I'm not programmed to handle offensive or inappropriate language. Please refrain from using such language in our conversation. 🚫",
-      "I'm here to assist you with any questions or problems you may have. How can I help you today? 🚀",
-      "Is there anything specific you'd like to talk about? 💬",
-      "I'm happy to help with any questions or concerns you may have. Just let me know how I can assist you. 😊",
-      "I'm here to assist you with any questions or problems you may have. What can I help you with today? 🤗",
-      "Is there anything specific you'd like to ask or talk about? I'm here to help with any questions or concerns you may have. 💬",
-      "I'm here to assist you with any questions or problems you may have. How can I help you today? 💡",
-    ];
+      "Right to Information Act, 2005: Allows citizens to request information from public authorities, promoting transparency and accountability in government.",
+      "Consumer Protection Act, 2019: Protects the rights of consumers by providing a mechanism for addressing grievances related to goods and services.",
+      "Information Technology Act, 2000: Governs cyber activities, addressing issues like cybercrime, digital signatures, and electronic commerce.",
+      "Indian Penal Code (IPC), 1860: The primary criminal code in India, covering various offenses including theft, assault, and murder.",
+      "Goods and Services Tax (GST) Act, 2017: Overhauled India's tax system by introducing a single tax on the supply of goods and services across India.",
+      "Prevention of Corruption Act, 1988: Addresses corruption in public offices, laying down strict penalties for corrupt practices.",
+      "Indian Contract Act, 1872: Governs contracts in India, outlining the formation, performance, and enforcement of contracts.",
+      "Environmental Protection Act, 1986: Provides the framework for the protection and improvement of the environment in India.",
+      "Motor Vehicles Act, 1988: Regulates all aspects of road transport vehicles, including licensing, registration, and traffic regulations.",
+      "Indian Evidence Act, 1872: Provides rules and guidelines for the admissibility of evidence in courts of law.",
+      "Juvenile Justice (Care and Protection of Children) Act, 2015: Deals with the care, protection, and rehabilitation of children in conflict with the law.",
+      "Hindu Marriage Act, 1955: Governs the marriage and divorce of Hindus in India, providing legal grounds and procedures for both.",
+      "Code of Criminal Procedure (CrPC), 1973: Lays down the procedure for the administration of criminal law in India, including the process for arrests, investigations, and trials.",
+      "Companies Act, 2013: Regulates the incorporation, responsibilities, and dissolution of companies in India.",
+      "Arbitration and Conciliation Act, 1996: Provides a legal framework for resolving disputes outside of court through arbitration and conciliation.",
+      "Payment of Wages Act, 1936: Ensures timely payment of wages to workers and outlines the conditions under which deductions can be made.",
+      "Trade Marks Act, 1999: Protects trademarks and prevents their unauthorized use, promoting brand protection in India.",
+      "Foreign Exchange Management Act (FEMA), 1999: Regulates foreign exchange transactions and facilitates external trade and payments.",
+      "National Green Tribunal Act, 2010: Establishes a special tribunal for the expeditious resolution of environmental cases in India.",
+      "Protection of Women from Domestic Violence Act, 2005: Provides protection to women from domestic violence and outlines the rights of victims."
+  ];
+  
     
     return responses[Math.floor(Math.random() * responses.length)];
   }
